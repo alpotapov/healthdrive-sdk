@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alpotapov/healthdrive-sdk/issues"
   },
-  "homepage": "https://github.com/alpotapov/healthdrive-sdk#readme"
+  "homepage": "https://github.com/alpotapov/healthdrive-sdk#readme",
+  "dependencies": {
+    "qrcode": "^1.5.1"
+  }
 }
