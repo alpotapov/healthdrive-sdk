@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "demo": "serve public/"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/alpotapov/healthdrive-sdk#readme",
   "dependencies": {
     "qrcode": "^1.5.1"
+  },
+  "devDependencies": {
+    "serve": "^14.1.2"
   }
 }
