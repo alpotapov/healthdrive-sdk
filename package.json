@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest --verbose false",
     "demo": "serve public/"
   },
   "repository": {
@@ -17,9 +18,12 @@
   },
   "homepage": "https://github.com/alpotapov/healthdrive-sdk#readme",
   "dependencies": {
-    "qrcode": "^1.5.1"
+    "ethers": "^6.1.0",
+    "react-qrcode-logo": "^2.9.0"
   },
   "devDependencies": {
+    "jest": "^29.3.1",
+    "qrcode-reader": "^1.0.4",
     "serve": "^14.1.2"
   }
 }
